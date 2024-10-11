@@ -4,8 +4,8 @@ import { Toaster } from "sonner";
 
 
 export const metadata: Metadata = {
-  title: "Political fact checker",
-  description: "fact checker",
+  title: "Political news letter",
+  description: "news letter for political news",
 };
 
 export default function RootLayout({
