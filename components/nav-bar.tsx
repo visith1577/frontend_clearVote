@@ -29,7 +29,7 @@ export const Navbar = () => (
         </div>
         <div className="flex items-center">
           <div className="flex-shrink-0">
-            <span className="font-bold text-xl text-gray-800">PoliCube</span>
+            <span className="font-bold text-xl text-gray-800">ClearVote</span>
           </div>
         </div>
       </div>

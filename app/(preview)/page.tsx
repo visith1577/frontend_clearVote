@@ -72,7 +72,7 @@ export default function Home() {
                 <MasonryIcon />
               </p>
               <p>
-                Welcome to PoliCube political analyst by DataMites. Ask me
+                Welcome to ClearVote political analyst by DataMites. Ask me
                 anything about politics and I will try to help you.
               </p>
               <p>
