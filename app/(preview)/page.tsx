@@ -38,9 +38,9 @@ export default function Home() {
       action: "Show me the latest news on the election",
     },
     {
-      title: "What are",
-      label: "the economic policies?",
-      action: "Compare and contrast the economic policies of the candidates",
+      title: "Predict",
+      label: "Parliament election seats?",
+      action: "visualise the seats in the parliament, predicted based on the votes",
     },
     {
       title: "How many",
@@ -85,7 +85,7 @@ export default function Home() {
                 >
                   2024 presidential Election{" "}
                 </Link>
-                from politiCube.
+                from ClearVote.
               </p>
             </div>
           </motion.div>

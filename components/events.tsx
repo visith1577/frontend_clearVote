@@ -1,6 +1,7 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import Markdown from "react-markdown";
 
 type Event = {
   id: string
@@ -20,7 +21,7 @@ export default function EventList({ message, events }: EventListProps) {
       {message && (
         <Card className="bg-blue-100">
           <CardContent className="p-4">
-            <p className="text-blue-800">{message}</p>
+            <p className="text-blue-800"><Markdown>{message}</Markdown></p>
           </CardContent>
         </Card>
       )}
